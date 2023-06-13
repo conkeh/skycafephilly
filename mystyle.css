@@ -113,14 +113,12 @@ h2 {
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
-    width: 100%;
   }
 }
 /* TABLET */
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
-    width: 100%;
   }
 }
 
@@ -128,7 +126,6 @@ h2 {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
-    width: 100%;
   }
 }
 
