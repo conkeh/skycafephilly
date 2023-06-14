@@ -7,12 +7,7 @@
   margin: 0;
   text-decoration: none;
 }
-.container {
-  max-width: 1224px;
-  width: 90%;
-  margin: auto;
-  padding: 40px 0;
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -77,13 +72,9 @@ body {
   gap: 20px;
   justify-content: center;
 }
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 .photo img {
-  border-radius: 5px;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -119,7 +110,18 @@ h2 {
 .sideorder span {
   color: red;
 }
-
+.title {
+  text-align: center;
+  font-family: monospace;
+  font-size: 3rem;
+}
+.column {
+  display: flex;
+  justify-content: center;
+}
+.skygallery img {
+  border-radius: 10px;
+}
 .code span {
   font-size: 20px;
 }
