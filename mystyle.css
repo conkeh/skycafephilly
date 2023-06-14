@@ -64,9 +64,10 @@ body {
   margin-top: 200px;
 }
 
-.row {
+.gallery{
   display: flex;
   margin-top: 150px;
+  gap: 20px;
   justify-content: center;
   margin-bottom: 100px;
 }
