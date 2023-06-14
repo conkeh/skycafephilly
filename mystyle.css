@@ -3,8 +3,6 @@
   --bg: #f8f2f2;
 }
 * {
-  padding: 0;
-  margin: 0;
   text-decoration: none;
 }
 
@@ -114,13 +112,21 @@ h2 {
   text-align: center;
   font-family: monospace;
   font-size: 3rem;
+  margin-top: 2rem;
+}
+.skygallery {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
 .column {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 }
 .skygallery img {
-  border-radius: 10px;
+  border-radius: 5px;
+  object-fit: cover;
 }
 .code span {
   font-size: 20px;
