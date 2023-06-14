@@ -131,7 +131,10 @@ h2 {
   html {
     font-size: 30%;
   }
-  .gallery {
+  .logo img {
+    width: 50px;
+  }
+  .photomakanan {
     flex-direction: column;
   }
 }
