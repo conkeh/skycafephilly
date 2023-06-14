@@ -3,9 +3,16 @@
   --bg: #f8f2f2;
 }
 * {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
 }
-
+.container {
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -69,6 +76,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
+  align-items: center;
+  text-align: center;
   margin-top: 150px;
   margin-bottom: 100px;
 }
@@ -132,5 +141,3 @@ h2 {
   }
 }
 /* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-}
