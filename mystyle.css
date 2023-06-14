@@ -76,6 +76,10 @@ body {
   border-radius: 5px;
   object-fit: cover;
 }
+.photomenu {
+  display: block;
+  text-align: center;
+}
 h1 {
   text-align: center;
   font-size: 5rem;
@@ -109,8 +113,8 @@ h2 {
   color: red;
 }
 
-#menu {
-  border: 3px solid black;
+.code span {
+  font-size: 20px;
 }
 /* MEDIA QUERIES */
 
@@ -124,7 +128,3 @@ h2 {
 }
 
 /* Mobile Phone */
-
-.code span {
-  font-size: 20px;
-}
