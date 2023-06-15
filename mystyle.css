@@ -132,7 +132,7 @@ h2 {
     font-size: 30%;
   }
   .logo img {
-    width: 1rem;
+    width: 100px;
   }
   .photomakanan {
     flex-direction: column;
