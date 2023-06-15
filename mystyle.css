@@ -131,6 +131,9 @@ h2 {
   html {
     font-size: 30%;
   }
+  .logo {
+    margin-top: 15%;
+  }
   .logo img {
     width: 300px;
   }
