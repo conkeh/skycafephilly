@@ -143,7 +143,28 @@ h6 {
 /* LAPTOP */
 
 /* TABLET */
+ @media only screen 
+        and (device-width: 428px) 
+        and (device-height: 926px) 
+        and (-webkit-device-pixel-ratio: 3) {
+          html {
+    font-size: 30%;
+  }
+  .navbar .logokiri span {
+    font-weight: 500;
+  }
+  .logo {
+    margin-top: 20%;
+  }
+  .logo img {
+    width: 300px;
+  }
+  .skygallery {
+    flex-direction: column;
+  }
+}
 
+         }
 /* Mobile Phone */
 @media (max-width: 428px) {
   html {
