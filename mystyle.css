@@ -156,8 +156,11 @@ h6 {
   .logo {
     margin-top: 20%;
   }
+  .title{
+width: 50px;
+  }
   .logo img {
-    width: 300px;
+    width: 100px;
   }
   .skygallery {
     flex-direction: column;
@@ -179,7 +182,11 @@ h6 {
   .logo img {
     width: 300px;
   }
+  .title {
+    width: 50px
+  }
   .skygallery {
+    width: 200px;
     flex-direction: column;
   }
 }
