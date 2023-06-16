@@ -145,7 +145,7 @@ h6 {
 /* TABLET */
 
 /* Mobile Phone */
-@media (max-width: 428px) {
+@media (max-width: 480px) {
   html {
     font-size: 30%;
   }
@@ -156,7 +156,7 @@ h6 {
     margin-top: 20%;
   }
   .logo img {
-    width: 100px;
+    width: 150px;
   }
   .title {
   }
