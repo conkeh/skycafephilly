@@ -141,11 +141,26 @@ h6 {
 /* MEDIA QUERIES */
 
 /* LAPTOP */
-
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
 /* TABLET */
-
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
 /* Mobile Phone */
-@media (max-width: 780px) {
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+  .logo img {
+    width: 50%;
+  }
+
   .skygallery {
     flex-direction: column;
   }
