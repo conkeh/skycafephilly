@@ -143,26 +143,6 @@ h6 {
 /* LAPTOP */
 
 /* TABLET */
-@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
-  html {
-    font-size: 30%;
-  }
-  .navbar .logokiri span {
-    font-weight: 500;
-  }
-  .logo {
-    margin-top: 20%;
-  }
-  .title {
-    width: 50px;
-  }
-  .logo img {
-    width: 100px;
-  }
-  .skygallery {
-    flex-direction: column;
-  }
-}
 
 /* Mobile Phone */
 @media (max-width: 428px) {
@@ -176,10 +156,9 @@ h6 {
     margin-top: 20%;
   }
   .logo img {
-    width: 100px;
+    width: 400px;
   }
   .title {
-    width: 50px;
   }
   .skygallery {
     flex-direction: column;
