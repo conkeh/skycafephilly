@@ -145,23 +145,8 @@ h6 {
 /* TABLET */
 
 /* Mobile Phone */
-@media only screen (max-width: 780px) {
-  html {
-    font-size: 10%;
-  }
-  .navbar .logokiri span {
-    font-weight: 500;
-  }
-  .logo {
-    margin-top: 20%;
-  }
-  .logo img {
-    width: 200px;
-  }
-  .title {
-  }
+@media (max-width: 780px) {
   .skygallery {
     flex-direction: column;
   }
 }
-/* Portrait in SAFARI */
