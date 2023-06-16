@@ -143,11 +143,8 @@ h6 {
 /* LAPTOP */
 
 /* TABLET */
- @media only screen 
-        and (device-width: 428px) 
-        and (device-height: 926px) 
-        and (-webkit-device-pixel-ratio: 3) {
-          html {
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  html {
     font-size: 30%;
   }
   .navbar .logokiri span {
@@ -156,8 +153,8 @@ h6 {
   .logo {
     margin-top: 20%;
   }
-  .title{
-width: 50px;
+  .title {
+    width: 50px;
   }
   .logo img {
     width: 100px;
@@ -167,7 +164,6 @@ width: 50px;
   }
 }
 
-         }
 /* Mobile Phone */
 @media (max-width: 428px) {
   html {
@@ -183,10 +179,9 @@ width: 50px;
     width: 100px;
   }
   .title {
-    width: 50px
+    width: 50px;
   }
   .skygallery {
-    width: 200px;
     flex-direction: column;
   }
 }
