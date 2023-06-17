@@ -129,6 +129,10 @@ h2 {
   border-radius: 5px;
   object-fit: cover;
 }
+.photomakanan img {
+  border-radius: 5px;
+  object-fit: cover;
+}
 h6 {
   text-align: center;
 }
@@ -154,7 +158,6 @@ h6 {
 @media (max-width: 600px) {
   html {
     font-size: 50%;
-    flex-direction: column-reverse;
   }
   hr {
     display: none;
