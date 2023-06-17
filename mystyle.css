@@ -160,7 +160,7 @@ h6 {
   }
   .column {
     flex: 50%;
-    max-width: 50%;
+    max-width: 100%;
   }
   .skygallery {
     flex-direction: column;
@@ -175,7 +175,7 @@ h6 {
   }
   .column {
     flex: 50%;
-    max-width: 50%;
+    max-width: 100%;
   }
   .skygallery {
     flex-direction: column;
