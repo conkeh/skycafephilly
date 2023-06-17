@@ -151,14 +151,17 @@ h6 {
 /* TABLET */
 
 /* Mobile Phone */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   html {
     font-size: 50%;
   }
   .logo img {
     width: 50%;
   }
-
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
   .skygallery {
     flex-direction: column;
   }
