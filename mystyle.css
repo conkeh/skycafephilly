@@ -176,7 +176,7 @@ h6 {
     flex-direction: column;
   }
 }
-@media only screen and (max-device-width: 480px) {
+@media (max-device-width: 480px) {
   html {
     font-size: 50%;
   }
