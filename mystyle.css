@@ -3,6 +3,8 @@
   --bg: #f8f2f2;
 }
 * {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -101,6 +103,11 @@ h2 {
 .sideorder span {
   color: red;
 }
+.container {
+  max-width: 1220px;
+  width: 90%;
+  margin: auto;
+}
 .title {
   text-align: center;
   font-family: monospace;
@@ -110,7 +117,6 @@ h2 {
 .skygallery {
   display: flex;
   gap: 20px;
-  justify-content: center;
 }
 .column {
   display: flex;
@@ -121,6 +127,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 5px;
+  object-fit: cover;
 }
 h6 {
   text-align: center;
@@ -140,50 +147,17 @@ h6 {
 /* MEDIA QUERIES */
 
 /* LAPTOP */
-@media (max-width: 1366px) {
-  html {
-    font-size: 75%;
-  }
-}
+
 /* TABLET */
-@media (max-width: 768px) {
-  html {
-    font-size: 60%;
-  }
-}
+
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media (max-width: 480px) {
   html {
     font-size: 50%;
   }
   .logo img {
     width: 50%;
   }
-
-  .skygallery {
-    flex-direction: column;
-  }
-}
-@media (min-width: 430px) {
-  html {
-    font-size: 50%;
-  }
-  .logo img {
-    width: 50%;
-  }
-
-  .skygallery {
-    flex-direction: column;
-  }
-}
-@media (max-device-width: 480px) {
-  html {
-    font-size: 50%;
-  }
-  .logo img {
-    width: 50%;
-  }
-
   .skygallery {
     flex-direction: column;
   }
