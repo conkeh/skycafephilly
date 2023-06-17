@@ -168,7 +168,9 @@ h6 {
   .logo img {
     width: 50%;
   }
-
+  .photomakanan img {
+    width: 20%;
+  }
   .skygallery {
     flex-direction: column;
   }
