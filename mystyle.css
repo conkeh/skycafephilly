@@ -154,7 +154,12 @@ h6 {
 @media (max-width: 600px) {
   html {
     font-size: 50%;
+    flex-direction: column-reverse;
   }
+  hr {
+    display: none;
+  }
+
   .logo img {
     width: 50%;
   }
