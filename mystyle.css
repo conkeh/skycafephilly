@@ -175,7 +175,7 @@ h6 {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
   html {
     font-size: 50%;
   }
@@ -187,7 +187,7 @@ h6 {
     width: 20%;
   }
   .photomakanan img {
-    width: 50%;
+    width: 30%;
   }
   .skygallery {
     flex-direction: column;
