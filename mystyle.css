@@ -170,6 +170,22 @@ h6 {
   }
 
   .skygallery {
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 480px), and (max-device-width: 480px) {
+  html {
+    font-size: 50%;
+  }
+  hr {
+    display: none;
+  }
+
+  .logo img {
+    width: 50%;
+  }
+
+  .skygallery {
+    flex-direction: column;
   }
 }
