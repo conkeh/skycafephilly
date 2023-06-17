@@ -174,9 +174,6 @@ h6 {
   }
 }
 @media only screen and (max-width: 480px) {
-  :root {
-    -webkit-column-width: auto;
-  }
   html {
     font-size: 50%;
   }
@@ -185,9 +182,11 @@ h6 {
   }
 
   .logo img {
+    width: 20%;
+  }
+  .photomakanan img {
     width: 50%;
   }
-
   .skygallery {
     flex-direction: column;
   }
