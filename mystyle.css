@@ -173,7 +173,7 @@ h6 {
     flex-direction: column;
   }
 }
-@media only screen and (device-width: 428px) and (device-height: 926px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (device-width: 428px) and (device-height: 926px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
   html {
     font-size: 50%;
   }
