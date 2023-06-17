@@ -158,12 +158,8 @@ h6 {
   .logo img {
     width: 50%;
   }
-  .column {
-    flex: 50%;
-    max-width: 100%;
-  }
+
   .skygallery {
-    object-fit: fill;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
