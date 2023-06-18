@@ -152,12 +152,9 @@ h6 {
 /* TABLET */
 
 /* Mobile Phone */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   html {
     font-size: 50%;
-  }
-  hr {
-    display: none;
   }
 
   .logo img {
