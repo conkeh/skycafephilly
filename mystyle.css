@@ -164,4 +164,8 @@ h6 {
   .skygallery {
     flex-direction: column;
   }
+  .skygallery img {
+    width: 50%;
+    height: 50%;
+  }
 }
