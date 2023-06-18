@@ -121,9 +121,9 @@ h2 {
 .skygallery img {
   width: 400px;
   height: 300px;
-  border: 2px solid red;
+  border: 4px solid #967e76;
   border-radius: 13px;
-  box-shadow: 4px 7px 7px 0px black;
+  box-shadow: 4px 7px 7px 0px rgb(107, 103, 103);
   cursor: pointer;
   margin: 10px;
   transition: 400ms;
