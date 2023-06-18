@@ -8,10 +8,6 @@
   text-decoration: none;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: monospace;
   background-color: var(--bg);
@@ -116,17 +112,21 @@ h2 {
 }
 .skygallery {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
 }
-.column {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 .skygallery img {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+  border: 2px solid red;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px black;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
   object-fit: cover;
 }
 .photomakanan img {
@@ -172,41 +172,4 @@ h6 {
   .skygallery {
     flex-direction: column;
   }
-}
-@media only screen and (device-width: 428px) and (device-height: 926px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3) {
-  html {
-    font-size: 50%;
-  }
-  hr {
-    display: none;
-  }
-
-  .logo img {
-    width: 20%;
-  }
-  .photomakanan img {
-    width: 30%;
-  }
-  .skygallery {
-    flex-direction: column;
-  }
-}
-@media only screen and (min-width: 480px) {
-  html {
-    font-size: 50%;
-  }
-  hr {
-    display: none;
-  }
-
-  .logo img {
-    width: 20%;
-  }
-  .photomakanan img {
-    width: 30%;
-  }
-  .skygallery {
-    flex-direction: column;
-  }
-}
 }
